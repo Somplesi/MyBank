@@ -43,7 +43,7 @@ class ViewController: UIViewController {
                             controller.addAction(ok)
                             self.present(controller, animated: true, completion: nil)
                         }
-                        self.waitView.isHidden = success
+                        self.waitView.isHidden = success // = true
                     }
                 }
             }
